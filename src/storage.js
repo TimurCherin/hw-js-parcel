@@ -1,10 +1,5 @@
-import { currentName } from "./app";
-import { currentEmail } from "./app";
-import { currentMessage } from "./app";
-const storage = {
-    name: currentName,
-    email: currentEmail,
-    message: currentMessage
+export const storage = {
+    name: "",
+    email: "",
+    message: ""
 }
-console.log(storage)
-alert("Ваша інформація успішно надіслана")
